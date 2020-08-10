@@ -1,5 +1,9 @@
 package polymorphsim;
-
+/*
+* private method inherting
+* will pass the comple if @overwrite is not mentioned.
+*
+* */
 public class Test {
 
     private void msg(){
@@ -8,7 +12,7 @@ public class Test {
 }
 
 class SubTest extends Test{
-   @Override
+
     private void msg(){
         System.out.println("this is from a subClass method");
     }
